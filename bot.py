@@ -48,11 +48,11 @@ import requests
 import html
 import docker as docker_sdk
 
-BOT_TOKEN  = "BOT_TOKEN"
+BOT_TOKEN  = "8377202202:AAHxKZevXD5AhmQtoTjGKq9SjJ_nSJfnBiI"
 MONGODB_URI = "MONGODB_URL"
 LOG_CHANNEL_ID = -1003580719468
-OWNER_ID   = 8163739723
-ADMIN_IDS  = [8163739723]
+OWNER_ID   = 5696490206
+ADMIN_IDS  = [5696490206]
 VPS_HOST_IP = os.environ.get("VPS_HOST_IP", "YOUR_VPS_IP")
 
 bot            = telebot.TeleBot(BOT_TOKEN, parse_mode='HTML')
